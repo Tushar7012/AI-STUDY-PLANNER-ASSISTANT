@@ -10,5 +10,17 @@ httpx
 langchain_groq
 requests
 langgraph
+# Flashcards & Quiz generation
+flashcards-core @ git+https://github.com/ebisu-flashcards/flashcards-core.git
 
--e .
+# Scheduling/reminders
+schedule>=1.2.2              # Lightweight job scheduling :contentReference[oaicite:1]{index=1}
+# OR for advanced async scheduling:
+# asyncio-scheduler>=1.0.4
+
+# Calendar (Google Calendar API)
+google-api-python-client>=2.90.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.7.1
+
+#-e .
